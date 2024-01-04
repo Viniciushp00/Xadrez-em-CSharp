@@ -40,6 +40,8 @@ namespace XadrezNovo
                     }
 
                 }
+                Console.Clear();
+                Tela.imprimirPartida(partida);
             }
             catch (TabuleiroException ex) {
                 Console.WriteLine(ex.Message);
